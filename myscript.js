@@ -1,4 +1,4 @@
-import {addHTML} from '/modules/mymodule.js';
+import {addHTML} from './modules/mymodule.js';
 
 window.addEventListener('load', function() {
     document.querySelector('#textAdder').onclick = function (){
